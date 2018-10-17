@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/animate.css">
     <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -15,15 +16,15 @@
     <header>
             <form>
                 <div>
-                <h2 class="info" id="namePlayerOne">PLAYER_1_(x)</h2>
-                <h2 class="info" id="playerOne"></h2>
+                <h2 class="info animated" id="namePlayerOne">PLAYER_1_(x)</h2>
+                <h2 class="info " id="playerOne"></h2>
                 </div>
                 <div>
-                    <h2 class="info">TIE</h2>
+                    <h2 class="info animated" id="TitleOfTie">TIE</h2>
                     <h2 class="info" id="nameTie"></h2>
                 </div>
                 <div>
-                <h2 class="info" id="namePlayerTwo">PLAYER_2_(o)</h2>
+                <h2 class="info animated" id="namePlayerTwo">PLAYER_2_(o)</h2>
                 <h2 class="info" id="playerTwo"></h2>
                 </div>
                 <div id="type-of-game">
@@ -58,5 +59,6 @@
         <h2 id="result"></h2>
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/mainComp.js"></script>
 </body>
 </html>
