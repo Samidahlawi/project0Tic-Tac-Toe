@@ -201,7 +201,7 @@ function ShowResult(){
     }if(max < countPlayerY){
         max = countPlayerY;
         viewResult = "The Player_2 is winner";
-    }if(max < countTie || countPlayerX === countPlayerY){
+    }if(countPlayerX === countPlayerY){
         max = 0;
         viewResult = "All Equal";
         // titleOftie.classList.add("flash");
