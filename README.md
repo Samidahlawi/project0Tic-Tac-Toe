@@ -5,7 +5,7 @@ The project is a game of Tic Tac Tow with two players or player with computer. T
 
 # My Project Deployment
 Deploy with github
-You can enjoy the game here ![TIC-TAC-TOE](sss)
+You can enjoy the game here [TIC-TAC-TOE](sss)
 
 
 ## Technologies used in the project
