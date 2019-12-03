@@ -24,6 +24,18 @@ You can enjoy the game here ![TIC-TAC-TOE](https://samidahlawi.github.io/project
 - As a user, I shouldn't be able to click to any button when game is starting except play again. 
 - As a user, I shouldn't be able to click to any index of the board if I didn't select any mark to start (X or O). 
 
+## The process of developing the game:
+1. Starting with a simple HTML file and few CSS.
+2. Simplify the problem to small steps and do them one by one.
+3. Started with every time I click on the boxes put X in it.
+4. Let them alternate between X and O.
+5. Store each move in an array.
+6. Get the winner by checking if any line has a matching symbol after the fifth move if it reaches nine moves without winner it will be a tie.
+7. Get the score for each player and display it underneath the board.
+8. Be able to start a new game without refresh the page or lose the scores by click on `New Game`.
+9. Add some sound effects when clicking on the boxes and if someone wins or ties
+10. Add AI player to play against by clicking `Play Against AI`.
+
 ## Challenges
 How to determine the correct boxs like when boxs matched or not. 
 
