@@ -71,6 +71,45 @@ Day 4:
 - Adding play vs computer feature
 - Update ``winner()`` function
 - Final touches on html, css and jQuery
+# Describe any lines in the code
+## winner() function
+*side note: this function was written on the last day to replace three ones that were used before*
+```javascript
+let playBoard = ["", "", "", "", "", "", "", "", ""];
+// the GameBoard:
+// "box-1",     "box-4",    "box-7"
+// "box-2",     "box-5",    "box-8"
+// "box-3",     "box-6",    "box-9"
+const winner = function () {
+    // filling in a globally defined array with gameboared content
+    for (let i = 0; i < 9; i++) { 
+        playBoard[i] = $("div#box-" + (i + 1)).text();
+    }
+    if (playBoard[0] == 'X' && playBoard[1] == 'X' && playBoard[2] == 'X' || playBoard[3] == 'X' && playBoard[4] == 'X' && playBoard[5] == 'X' || playBoard[6] == 'X' && playBoard[7] == 'X' && playBoard[8] == 'X') // if X won with a column
+    {
+        winnerIsX(); // a function to print out the winner and update score 
+    }
+    if (playBoard[0] == 'O' && playBoard[1] == 'O' && playBoard[2] == 'O' || playBoard[3] == 'O' && playBoard[4] == 'O' && playBoard[5] == 'O' || playBoard[6] == 'O' && playBoard[7] == 'O' && playBoard[8] == 'O') // if O won with a column
+    {
+        winnerIsO(); 
+    }
+    if (playBoard[0] == 'X' && playBoard[3] == 'X' && playBoard[6] == 'X' || playBoard[1] == 'X' && playBoard[4] == 'X' && playBoard[7] == 'X' || playBoard[2] == 'X' && playBoard[5] == 'X' && playBoard[8] == 'X') // if X won with a row
+    {
+        winnerIsX(); 
+    }
+    if (playBoard[0] == 'O' && playBoard[3] == 'O' && playBoard[6] == 'O' || playBoard[1] == 'O' && playBoard[4] == 'O' && playBoard[7] == 'O' || playBoard[2] == 'O' && playBoard[5] == 'O' && playBoard[8] == 'O') {
+        winnerIsO();
+    }
+    if (playBoard[0] == 'X' && playBoard[4] == 'X' && playBoard[8] == 'X' || playBoard[6] == 'X' && playBoard[4] == 'X' && playBoard[2] == 'X') // if X won diagonally
+    {
+        winnerIsX(); 
+    }
+    if (playBoard[0] == 'O' && playBoard[4] == 'O' && playBoard[8] == 'O' || playBoard[6] == 'O' && playBoard[4] == 'O' && playBoard[2] == 'O') {
+        winnerIsO();
+    }
+}
+```
+
 
 ## Challenges
 How to determine the correct boxs like when boxs matched or not. 
