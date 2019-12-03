@@ -4,7 +4,7 @@ The project is a game of Tic Tac Tow with two players or player with computer. T
 
 
 # My Game Project
-You can enjoy with the game here ![TIC-TAC-TOE](https://wh0-1-am.github.io/project0Tic-Tac-Toe/)
+You can enjoy with the game here ![TIC-TAC-TOE](https://samidahlawi.github.io/project0Tic-Tac-Toe/)
 
 
 
