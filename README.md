@@ -7,11 +7,15 @@ You can enjoy the game here ![TIC-TAC-TOE](https://samidahlawi.github.io/project
 
 
 ## Technologies used in the project
-- functions and call-back function
-- arrays 
-- Audio 
-- jQuery with some events 
-- I make the game responsive with mobile versions
+* Git
+* Javascript
+* HTML
+* CSS
+* jQuery
+* [Sweet Alert](https://daneden.github.io/animate.css/)
+* I used some css animate [ANIMATE](https://daneden.github.io/animate.css/)
+* Also The sounds [SOUNDBIBKE](http://soundbible.com/)
+* I make the game responsive with mobile versions
 
 
 ## wireframes and user stories.
@@ -45,15 +49,4 @@ How to determine the correct boxs like when boxs matched or not.
 - add option if the user want to play with (X or O) or with images or their names. 
 - add a timer 
 
-
-
-## Used
-* Git
-* Javascript
-* HTML
-* CSS
-* jQuery
-* [Sweet Alert](https://daneden.github.io/animate.css/)
-* I used some css animate [ANIMATE](https://daneden.github.io/animate.css/)
-* Also The sounds [SOUNDBIBKE](http://soundbible.com/)
 
