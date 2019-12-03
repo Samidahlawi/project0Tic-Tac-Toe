@@ -1,3 +1,5 @@
+# ![GA Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) ![Misk Logo](ma-logo-1.png)
+
 # Project Tic-Tac-Toe Game
 The project is a game of Tic Tac Tow with two players or player with computer. The application can store scores of games example how many wins or draw.
 
