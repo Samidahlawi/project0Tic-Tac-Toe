@@ -36,8 +36,12 @@ How to determine the correct boxs like when boxs matched or not.
 
 
 ## Used
-* JavaScript - Programming language
-* jQuery - JavaScript library
+* Git
+* Javascript
+* HTML
+* CSS
+* jQuery
+* [Sweet Alert](https://daneden.github.io/animate.css/)
 * I used some css animate [ANIMATE](https://daneden.github.io/animate.css/)
 * Also The sounds [SOUNDBIBKE](http://soundbible.com/)
 
