@@ -30,7 +30,6 @@ How to determine the correct boxs like when boxs matched or not.
 
 
 # unsolved problems which would be fixed in future iterations.
-- check if it's a draw: I think I have to re-think about this part and change it to be more flixable with my code. 
 - add option if the user want to play with (X or O) or with images or their names. 
 - add a timer 
 
