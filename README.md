@@ -3,7 +3,7 @@ The project is a game of Tic Tac Tow with two players or player with computer. T
 
 # My Project Deployment
 Deploy with github
-You can enjoy the game here ![TIC-TAC-TOE](https://samidahlawi.github.io/project0Tic-Tac-Toe/)
+You can enjoy the game here ![TIC-TAC-TOE](sss)
 
 
 ## Technologies used in the project
@@ -39,6 +39,36 @@ You can enjoy the game here ![TIC-TAC-TOE](https://samidahlawi.github.io/project
 8. Be able to start a new game without refresh the page or lose the scores by click on `New Game`.
 9. Add some sound effects when clicking on the boxes and if someone wins or ties
 10. Add AI player to play against by clicking `Play Against AI`.
+#OR
+## Planning and Development Process
+Planning started with searching and exploring different options and ways to build the game with an open mind
+then: 
+
+Day 1:
+- Basic html layout
+- Basic styling with css
+- Adding special classes and IDs to html elements
+- Building jQuery lines to enable clicks actions 
+- Using developer tools all the way from here 
+
+Day 2:
+- Defining variables and building functions to use in jQuery to: manipulate page's content
+- Defining winning scenarios, psudocode them
+- Building  winning functions, along with ``turn()`` , ``tie()`` , ``reset()`` functions 
+- Debugging functions
+
+Day 3:
+- Discussing, sharing thoughts on solving problems 
+- Debugging and fixing JavaScript bugs 
+- Adding a feature so the first player gets to pick X or O to play as
+- Adding a feature to track and show winning/tie ``score()``
+- Working on page styles and making it responsive 
+
+Day 4:
+- Adding sound feature
+- Adding play vs computer feature
+- Update ``winner()`` function
+- Final touches on html, css and jQuery
 
 ## Challenges
 How to determine the correct boxs like when boxs matched or not. 
