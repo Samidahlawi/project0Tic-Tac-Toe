@@ -1,11 +1,11 @@
 # ![GA Logo and Misk Logo](https://misk.org.sa/miskacademy/wp-content/uploads/sites/5/2019/05/logo-aa.png)
 
 # Project Tic-Tac-Toe Game
-The project is a game of Tic Tac Tow with two players or player with computer. The application can store scores of games example how many wins or draw.
+The project is a game of Tic Tac Toe with two players Or player with computer. The application can store scores of games for example how many wins or draw.
 
 # My Project Deployment
 Deploy with github
-You can enjoy the game here [TIC-TAC-TOE](sss)
+You can enjoy the game here [TIC-TAC-TOE](My Game)
 
 
 ## Technologies used in the project
@@ -41,7 +41,9 @@ You can enjoy the game here [TIC-TAC-TOE](sss)
 8. Be able to start a new game without refresh the page or lose the scores by click on `New Game`.
 9. Add some sound effects when clicking on the boxes and if someone wins or ties
 10. Add AI player to play against by clicking `Play Against AI`.
+----
 #OR
+----
 ## Planning and Development Process
 Planning started with searching and exploring different options and ways to build the game with an open mind
 then: 
@@ -116,7 +118,7 @@ How to determine the correct boxs like when boxs matched or not.
 
 
 
-# unsolved problems which would be fixed in future iterations.
+# Unsolved problems which would be fixed in future iterations.
 - add option if the user want to play with (X or O) or with images or their names. 
 - add a timer 
 
