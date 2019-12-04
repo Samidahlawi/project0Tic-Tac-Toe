@@ -9,6 +9,7 @@ You can enjoy the game here [TIC-TAC-TOE](My Game)
 
 
 ## Technologies used in the project
+* GITHUB
 * Git
 * Javascript
 * HTML
